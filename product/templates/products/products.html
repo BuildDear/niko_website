@@ -1,0 +1,310 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ title }}</title>
+
+    <!-- Основні стилі Bootstrap -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Власні стилі для цього шаблону -->
+    <link href="{% static 'vendor/css/products.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Навігація -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'index' %}">Магазин</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Переключити навігацію">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'products:index' %}">Каталог <i class="fas fa-shopping-bag"></i> </a>
+                </li>
+                 {% if not user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'users:login'  %}">Увійти <i class="fas fa-sign-in-alt"></i></a>
+                </li>
+                {% endif %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="{% url 'users:profile'%}">Профіль</a>
+                        </li>
+                        <li><a class="dropdown-item" href="orders/orders.html">Замовлення</a></li>
+                        <li><a class="dropdown-item" href="#">Адмін-панель</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="{% url 'users:logout' %}">
+                                Вийти
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Вміст сторінки -->
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-3">
+
+            <h1 class="my-4">Магазин</h1>
+            <div class="list-group">
+                {% for category in categories %}
+                    <a href="#" class="list-group-item">{{ category.name }}</a>
+                {% endfor %}
+            </div>
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+            <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="/static/vendor/img/slides/slide-1.jpg" alt="Перший слайд">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="/static/vendor/img/slides/slide-2.jpg" alt="Другий слайд">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="/static/vendor/img/slides/slide-3.jpg" alt="Третій слайд">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Попередній</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Наступний</span>
+                </a>
+            </div>
+
+            <!-- Рядки товарів -->
+            <!-- Ваш HTML-код для товарів тут -->
+
+              <div class="row">
+
+                  {% for product in products %}
+                   <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img class="card-img-top"
+                                 src="{{ product.image.url }}"
+                                 alt="">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">{{ product.name }}</a>
+                            </h4>
+                            <h5>{{ product.price }} грн.</h5>
+                            <p class="card-text">{{ product.description }}</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <a class = "btn btn-outline-success" href="{% url 'products:order_add' product.id %}">
+                                Відправити у кошик
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                  {% endfor %}
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img class="card-img-top"
+                                 src="/static/vendor/img/products/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png"
+                                 alt="">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Темно-сині широкі строгі штани ASOS DESIGN</a>
+                            </h4>
+                            <h5> 250 грн.</h5>
+                            <p class="card-text">Легка еластична тканина сиракер Фактурна тканина.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-outline-success">Відправити у кошик</button>
+                        </div>
+                    </div>
+                </div>
+
+{#                  <div class="col-lg-4 col-md-6 mb-4">#}
+{#                    <div class="card h-100">#}
+{#                        <a href="#">#}
+{#                            <img class="card-img-top"#}
+{#                                 src="/static/vendor/img/product/Black-Dr-Martens-shoes.png"#}
+{#                                 alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">Чорні туфлі на платформі з 3 парами люверсів Dr Martens 1461 Bex</a>#}
+{#                            </h4>#}
+{#                            <h5>13 590,00 руб.</h5>#}
+{#                            <p class="card-text">Гладкий шкіряний верх. Натуральний матеріал.</p>#}
+{#                        </div>#}
+{#                        <div class="card-footer text-center">#}
+{#                            <button type="button" class="btn btn-outline-success">Відправити у кошик</button>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{##}
+{#                  <div class="col-lg-4 col-md-6 mb-4">#}
+{#                    <div class="card h-100">#}
+{#                        <a href="#">#}
+{#                            <img class="card-img-top"#}
+{#                                 src="/static/vendor/img/product/Black-Nike-Heritage-backpack.png"#}
+{#                                 alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">Чорний рюкзак Nike Heritage</a>#}
+{#                            </h4>#}
+{#                            <h5>2 340,00 руб.</h5>#}
+{#                            <p class="card-text">Щільна тканина. Легкий матеріал.</p>#}
+{#                        </div>#}
+{#                        <div class="card-footer text-center">#}
+{#                            <button type="button" class="btn btn-outline-success">Відправити у кошик</button>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{##}
+{#                  <div class="col-lg-4 col-md-6 mb-4">#}
+{#                    <div class="card h-100">#}
+{#                        <a href="#">#}
+{#                            <img class="card-img-top"#}
+{#                                 src="/static/vendor/img/product/Brown-sports-oversized-top-ASOS-DESIGN.png"#}
+{#                                 alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">Коричневий спортивний oversized-топ ASOS DESIGN</a>#}
+{#                            </h4>#}
+{#                            <h5>3 390,00 руб.</h5>#}
+{#                            <p class="card-text">Матеріал із плюшевою текстурою. Зручний та м'який.</p>#}
+{#                        </div>#}
+{#                        <div class="card-footer text-center">#}
+{#                            <button type="button" class="btn btn-outline-success">Відправити у кошик</button>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{##}
+{#                  <div class="col-lg-4 col-md-6 mb-4">#}
+{#                    <div class="card h-100">#}
+{#                        <a href="#">#}
+{#                            <img class="card-img-top"#}
+{#                                 src="/static/vendor/img/product/Blue-jacket-The-North-Face.png" alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">Синя куртка The North Face</a>#}
+{#                            </h4>#}
+{#                            <h5>23 725,00 руб.</h5>#}
+{#                            <p class="card-text">#}
+{#                               Гладка тканина. Водонепроникне покриття. Легкий та теплий пуховий наповнювач.#}
+{#                            </p>#}
+{#                        </div>#}
+{#                        <div class="card-footer text-center">#}
+{#                            <button type="button" class="btn btn-outline-success">Відправити у кошик</button>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{##}
+{#                  <div class="col-lg-4 col-md-6 mb-4">#}
+{#                    <div class="card h-100">#}
+{#                        <a href="#">#}
+{#                            <img class="card-img-top"#}
+{#                                 src="/static/vendor/img/product/Adidas-hoodie.png"#}
+{#                                 alt="">#}
+{#                        </a>#}
+{#                        <div class="card-body">#}
+{#                            <h4 class="card-title">#}
+{#                                <a href="#">Худі чорного кольору з монограмами adidas Originals</a>#}
+{#                            </h4>#}
+{#                            <h5>6 090,00 руб.</h5>#}
+{#                            <p class="card-text">М'яка тканина для світшотів. Стиль та комфорт – це спосіб життя</p>#}
+{#                        </div>#}
+{#                        <div class="card-footer text-center">#}
+{#                            <button type="button" class="btn btn-outline-success">Відправити у кошик</button>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+
+             </div>
+
+            <!-- Пагінація -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Попередня</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Наступна</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- /.container -->
+
+<!-- Підвал -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Авторське право &copy; Магазин 2022</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Основний JavaScript Bootstrap -->
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- Скрипт FontAwesome -->
+<script src="{% static 'vendor/fontawesome/fontawesome-icons.js' %}" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

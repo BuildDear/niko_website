@@ -1,0 +1,1702 @@
+[
+    {
+        "model": "product.product",
+        "pk": 1,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000001",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 63142,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 2,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000002",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 7571,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 3,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000003",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 30775,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 4,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000004",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 84082,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 5,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000005",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 91458,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 6,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000006",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 96143,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 7,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000007",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 74787,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 8,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000008",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 47630,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 9,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000009",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 31764,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 10,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000010",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 43906,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 11,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000011",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 20089,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 12,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000012",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 48729,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 13,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000013",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 31856,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 14,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000014",
+            "price": "24917694.48",
+            "description": "Description",
+            "quantity": 37453,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 15,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000015",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 20851,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 16,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000016",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 26612,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 17,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000017",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 37334,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 18,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000018",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 3607,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 19,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000019",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 6994,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 20,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000020",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 28052,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 21,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000021",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 4044,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 22,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000022",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 98447,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 23,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000023",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 88946,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 24,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000024",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 65215,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 25,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000025",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 52711,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 26,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000026",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 40237,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 27,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000027",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 92821,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 28,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000028",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 10671,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 29,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000029",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 10135,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 30,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000030",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 60415,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 31,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000031",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 37772,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 32,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000032",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 61836,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 33,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000033",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 47156,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 34,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000034",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 95183,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 35,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000035",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 39968,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 36,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000036",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 29345,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 37,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000037",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 26081,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 38,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000038",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 51116,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 39,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000039",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 83944,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 40,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000040",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 56112,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 41,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000041",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 84563,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 42,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000042",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 86773,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 43,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000043",
+            "price": "4645455.86",
+            "description": "Description",
+            "quantity": 20566,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 44,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000044",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 65546,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 45,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000045",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 79417,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 46,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000046",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 11442,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 47,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000047",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 15997,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 48,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000048",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 25117,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 49,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000049",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 97760,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 50,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000050",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 47352,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 51,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000051",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 53966,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 52,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000052",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 77034,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 53,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000053",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 66383,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 54,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000054",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 41792,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 55,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000055",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 76302,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 56,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000056",
+            "price": "86329366.46",
+            "description": "Description",
+            "quantity": 74011,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 57,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000057",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 18311,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 58,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000058",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 14727,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 59,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000059",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 26408,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 60,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000060",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 92883,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 61,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000061",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 30780,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 62,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000062",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 34648,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 63,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000063",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 75677,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 64,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000064",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 89457,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 65,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000065",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 17113,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 66,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000066",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 24671,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 67,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000067",
+            "price": "20155506.62",
+            "description": "Description",
+            "quantity": 60381,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 68,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000068",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 44322,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 69,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000069",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 22065,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 70,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000070",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 68953,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 71,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000071",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 31660,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 72,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000072",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 50539,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 73,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000073",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 451,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 74,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000074",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 30437,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 75,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000075",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 34953,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 76,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000076",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 50091,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 77,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000077",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 57475,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 78,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000078",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 69505,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 79,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000079",
+            "price": "69557753.31",
+            "description": "Description",
+            "quantity": 96817,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 80,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000080",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 10003,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 81,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000081",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 97218,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 82,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000082",
+            "price": "3917837.19",
+            "description": "Description",
+            "quantity": 52839,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 83,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000083",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 24318,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 84,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000084",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 17703,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 85,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000085",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 88215,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 86,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000086",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 12625,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 87,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000087",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 65351,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 88,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000088",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 43093,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 89,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000089",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 87395,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 90,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000090",
+            "price": "95385004.17",
+            "description": "Description",
+            "quantity": 42594,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 91,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000091",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 66762,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 92,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000092",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 24956,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 93,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000093",
+            "price": "27440308.76",
+            "description": "Description",
+            "quantity": 34533,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 94,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000094",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 69490,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 95,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000095",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 67708,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 96,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000096",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 21250,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 97,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000097",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 77777,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 98,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000098",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 90743,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 99,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000099",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 32591,
+            "photo": "path/to/photo",
+            "isShown": false,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 3
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 100,
+        "fields": {
+            "admin": 1,
+            "animal": "AnimalName",
+            "type": "Type",
+            "name": "Product 2000100",
+            "price": "99999999.99",
+            "description": "Description",
+            "quantity": 10487,
+            "photo": "path/to/photo",
+            "isShown": true,
+            "upload_date": "2023-01-01T00:00:00Z",
+            "category": 2
+        }
+    }
+]

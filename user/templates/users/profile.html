@@ -1,0 +1,133 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{ title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href=" {% static '/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static '/vendor/css/profile.css' %}" rel="stylesheet">
+</head>
+<body class="bg-light">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'products:index' %}">Niko</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Каталог <i class="fas fa-shopping-bag"></i> </a>
+                </li>
+                 {% if not user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'users:login'  %}">Увійти <i class="fas fa-sign-in-alt"></i></a>
+                </li>
+                {% endif %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="profile.html">Профіль</a>
+                        </li>
+                        <li><a class="dropdown-item" href="../orders/orders.html">Замовлення</a></li>
+                        <li><a class="dropdown-item" href="#">Адмін-панель</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="{% url 'users:logout' %}">
+                                Вийти
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7">
+            <h4 class="mt-3 mb-3">Профіль</h4>
+            <div class="col-lg-12 text-center">
+                <img width="100" height="100"
+                     src = "{% if user.image  %} {{ user.image.url }} {% else %}  {% static '/vendor/img/users/default_avatar.jpg'  %} {% endif %}"
+                     class="img-thumbnail">
+            </div>
+
+            <form action="{% url "users:profile" %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="small mb-1" for="{{ form.first_name.id_for_label }}">Ім'я</label>
+                            {{ form.first_name }}
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="small mb-1" for="{{ form.last_name.id_for_label }}">Прізвище</label>
+                            {{ form.last_name }}
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row mb-2">
+                    <div class="col-lg-12">
+                        <div class="custom-file">
+                            {{ form.image }}
+                            <input type="file" class="custom-file-input" id="userAvatar" size="50">
+                            <label class="custom-file-label" for="{{ form.image.id_for_label }}">Виберіть фото</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-6">
+                        <label class="small mb-1" for="{{ form.username.id_for_label }}">Ім'я користувача</label>
+                        {{ form.username }}
+                    </div>
+                    <div class="col-lg-6">
+                        <label class="small mb-1" for="{{ form.email.id_for_label }}">Адреса електронної скриньки</label>
+                       {{ form.email }}
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-12" style="margin-top: 33px;">
+                        <input class="btn btn-info btn-block" type="submit" value="Зберегти">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-lg-5">
+        {% include 'products/order.html' %}
+
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="{% static '/vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- FontAwesome script -->
+<script src="{% static '/vendor/fontawesome/fontawesome-icons.js' %}" crossorigin="anonymous"></script>
+</body>
+</html>
